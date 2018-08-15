@@ -1,7 +1,11 @@
 %% versao 1
 #include <stdio.h>
 int main(){
-	printf("Hello world!");
+int ret
+ret = func(2,3);
+	printf("O resultado é: %d\n", ret);
+ret= mult(2,3);
+printf("O resultado da multiplicacao é: %d", ret);
 	return 0;
 }
 
